@@ -1,105 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vasanth Vihar Valley</title>
-  <meta name="description" content="Gated community with 2, 3 & 4 BHK flats near Skill Stork International School; close to Hyderabad Highway. Amenities include drivers room, 24/7 security, CCTV, walking track, kids play area, and solar fencing.">
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23C9A227'/><text x='50' y='60' dominant-baseline='middle' text-anchor='middle' font-size='56' fill='black' font-family='Arial, Helvetica, sans-serif'>V</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Vasanth Vihar Valley</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="navbar">
-  <div class="container navwrap">
-    <div class="brand">
-      <div class="logo"></div>
-      <h1>Vasanth Vihar Valley</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="apartments.html">Apartments</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="apartments.html">Apartments</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="hero">
-  <div class="container">
-    <h2 class="title">Book a Site Visit / Enquire</h2>
-    <p class="subtitle">We’ll get back to you shortly.</p>
-  </div>
-</section>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you. Please reach out using the details below.</p>
+            
+            <div class="contact-details">
+                <p><strong>Address:</strong> Vasanth Vihar Valley, Your City, India</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> info@vasanthviharvalley.com</p>
+            </div>
 
-<section class="section">
-  <div class="container grid grid-2">
-    <div class="card">
-      <div class="pad">
-        <h3 style="margin:0 0 10px">Contact Form</h3>
-        <form id="contact-form">
-          <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px">
-            <input name="name" placeholder="Full Name" required style="padding:12px;border:1px solid #ddd;border-radius:10px">
-            <input name="phone" placeholder="Phone" required style="padding:12px;border:1px solid #ddd;border-radius:10px">
-          </div>
-          <input name="email" placeholder="Email" type="email" style="padding:12px;border:1px solid #ddd;border-radius:10px;margin-top:12px;width:100%">
-          <textarea name="message" placeholder="Your message" rows="5" style="padding:12px;border:1px solid #ddd;border-radius:10px;margin-top:12px;width:100%"></textarea>
-          <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
-            <button class="btn" type="submit">Send</button>
-            <a class="btn btn-outline" href="tel:+919999999999">Call Us</a>
-            <a class="btn btn-outline" href="https://wa.me/919999999999">WhatsApp</a>
-          </div>
-          <p style="color:#666;font-size:12px;margin-top:10px">Tip: This form opens your email app to send us details. Replace the email/phone with your own before going live.</p>
-        </form>
-      </div>
-    </div>
-    <div class="card">
-      <div class="pad">
-        <h3 style="margin:0 0 10px">Find Us</h3>
-        <p>Near Skill Stork International School. Very close to Hyderabad Highway.</p>
-        <iframe class="map" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps?q=Skill%20Stork%20International%20School&output=embed"></iframe>
-      </div>
-    </div>
-  </div>
-</section>
+            <form action="mailto:info@vasanthviharvalley.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-<footer class="footer">
-  <div class="container cols grid grid-3">
-    <div>
-      <h3 style="margin:0 0 8px">Vasanth Vihar Valley</h3>
-      <p class="kv"><span class="k">Gated community near Skill Stork International School.</span></p>
-      <div class="amenities">
-        <span class="tag">2, 3 & 4 BHK</span>
-        <span class="tag">24/7 Security</span>
-        <span class="tag">CCTV</span>
-        <span class="tag">Walking Track</span>
-        <span class="tag">Kids Play Area</span>
-        <span class="tag">Drivers Room</span>
-        <span class="tag">Solar Fencing</span>
-      </div>
-    </div>
-    <div>
-      <h4 style="margin:0 0 8px">Quick Links</h4>
-      <p><a href="apartments.html">Available Apartments</a></p>
-      <p><a href="gallery.html">Photo Gallery</a></p>
-      <p><a href="contact.html">Enquiry</a></p>
-    </div>
-    <div>
-      <h4 style="margin:0 0 8px">Contact</h4>
-      <p>Very close to Hyderabad Highway</p>
-      <p><a href="tel:+919999999999">+91 99999 99999</a></p>
-      <p><a href="mailto:info@vasanthviharvalley.in">info@vasanthviharvalley.in</a></p>
-    </div>
-  </div>
-  <div class="copyright">© 2025 Vasanth Vihar Valley. All rights reserved.</div>
-</footer>
-<div class="cta-bar">
-  <a href="tel:+919999999999" aria-label="Call">📞 Call</a>
-  <a href="https://wa.me/919999999999" aria-label="WhatsApp">💬 WhatsApp</a>
-</div>
-<script src="assets/script.js"></script>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vasanth Vihar Valley. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
